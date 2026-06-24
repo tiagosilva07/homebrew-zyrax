@@ -5,28 +5,28 @@
 class ZyraxGuard < Formula
   desc "Audit AI agent configs (prompt injection, rogue MCP servers) and vet packages"
   homepage "https://github.com/tiagosilva07/zyrax-guard"
-  version "0.8.0"
+  version "0.8.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tiagosilva07/zyrax-guard/releases/download/v0.8.0/zyrax-guard-darwin-arm64"
-      sha256 "06aebaaeb422779a5e3fb443a97120979c12f73e270c9a533a241e0edae06ff8"
+      url "https://github.com/tiagosilva07/zyrax-guard/releases/download/v0.8.1/zyrax-guard-darwin-arm64"
+      sha256 "ddae132344a0121d66896c76ec8eaa210abb2931ebc9d32de54803641bdf3b4c"
     end
     on_intel do
-      url "https://github.com/tiagosilva07/zyrax-guard/releases/download/v0.8.0/zyrax-guard-darwin-amd64"
-      sha256 "aefa7e08df404494aca3ef6bc65048a2e28c6ee29f08be32c2a301971a1ba618"
+      url "https://github.com/tiagosilva07/zyrax-guard/releases/download/v0.8.1/zyrax-guard-darwin-amd64"
+      sha256 "3928b43604dba07c769796e0e62373e76815f671473e564dcf4078a8b243fc6a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tiagosilva07/zyrax-guard/releases/download/v0.8.0/zyrax-guard-linux-arm64"
-      sha256 "84780ca637965de717d70134f5454629d46f9a15f8d587b3ce6ef05d4d6496d4"
+      url "https://github.com/tiagosilva07/zyrax-guard/releases/download/v0.8.1/zyrax-guard-linux-arm64"
+      sha256 "92aa87fe31317bb0f6824f849739d804ebc7ff47b9af352de67bae062e7903e1"
     end
     on_intel do
-      url "https://github.com/tiagosilva07/zyrax-guard/releases/download/v0.8.0/zyrax-guard-linux-amd64"
-      sha256 "91cec7249290ef09f1a2643b98dfd3d38e05d1cfc602180eaec0330176ce8c5c"
+      url "https://github.com/tiagosilva07/zyrax-guard/releases/download/v0.8.1/zyrax-guard-linux-amd64"
+      sha256 "f90f7162667ac8ddb40d305d69cedca2950e6cadc3ea5134d2e2e8680b4ed8ca"
     end
   end
 
